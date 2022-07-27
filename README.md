@@ -3,6 +3,8 @@
 
 Basic calculator app for android with a retro design and color scheme.
 
+DOWNLOAD: https://github.com/vladstoenica/Calculator-App/releases
+
 ## Features
 
 - Input history
