@@ -4,10 +4,16 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.24487179487179486" />
+        <entry key="app/src/main/res/drawable/ic_backspace.xml" value="0.2111111111111111" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.24487179487179486" />
+        <entry key="app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.24487179487179486" />
         <entry key="app/src/main/res/drawable/nr_shape.xml" value="0.16510416666666666" />
-        <entry key="app/src/main/res/drawable/symbol_shape.xml" value="0.2984375" />
+        <entry key="app/src/main/res/drawable/symbol_shape.xml" value="0.1656978099179875" />
+        <entry key="app/src/main/res/font/font.xml" value="0.2111111111111111" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/calculator_launcher.xml" value="0.13547008547008546" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.24487179487179486" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.24487179487179486" />
       </map>
     </option>
   </component>

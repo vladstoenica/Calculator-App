@@ -15,26 +15,39 @@
         android:orientation="vertical">
 
         <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calculator"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_15ssp"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:layout_marginTop="@dimen/_12sdp"
+            android:gravity="center"
+            android:fontFamily="@font/digital"/>
+
+        <TextView
             android:id="@+id/textViewHistory"
             android:layout_width="match_parent"
-            android:layout_height="200dp"
+            android:layout_height="@dimen/_180sdp"
             android:background="@color/black"
             android:gravity="center|end"
             android:textColor="@color/result"
-            android:textSize="30sp"></TextView>
+            android:textSize="@dimen/_25ssp"
+            android:fontFamily="@font/digital"></TextView>
 
         <TextView
 
             android:id="@+id/textViewResult"
             android:layout_width="match_parent"
-            android:layout_height="110dp"
+            android:layout_height="@dimen/_86sdp"
             android:layout_gravity="bottom"
             android:background="@color/black"
             android:gravity="center|end"
             android:paddingEnd="10dp"
             android:text="0"
             android:textColor="@color/white"
-            android:textSize="60sp"></TextView>
+            android:textSize="@dimen/_60ssp"
+            android:fontFamily="@font/digital"></TextView>
 
     </LinearLayout>
 
@@ -53,10 +66,10 @@
             android:layout_column="0"
             android:layout_columnWeight="1"
             android:background="@color/symbol_button"
-            android:fontFamily="sans-serif-condensed"
+            android:fontFamily="@font/digital"
             android:text="AC"
             android:textColor="@color/orange"
-            android:textSize="30sp"
+            android:textSize="@dimen/_30ssp"
             tools:ignore="TextContrastCheck" />
 
         <androidx.appcompat.widget.AppCompatButton
@@ -67,10 +80,10 @@
             android:layout_column="1"
             android:layout_columnWeight="1"
             android:background="@color/symbol_button"
-            android:fontFamily="sans-serif-condensed"
+            android:fontFamily="@font/digital"
             android:text="DEL"
             android:textColor="@color/orange"
-            android:textSize="30sp"
+            android:textSize="@dimen/_30ssp"
             tools:ignore="TextContrastCheck" />
 
         <androidx.appcompat.widget.AppCompatButton
@@ -81,10 +94,10 @@
             android:layout_column="2"
             android:layout_columnWeight="1"
             android:background="@color/symbol_button"
-            android:fontFamily="sans-serif-condensed"
+            android:fontFamily="@font/digital"
             android:text="/"
             android:textColor="@color/orange"
-            android:textSize="30sp"
+            android:textSize="@dimen/_30ssp"
             tools:ignore="TextContrastCheck" />
 
         <androidx.appcompat.widget.AppCompatButton
@@ -95,10 +108,10 @@
             android:layout_column="3"
             android:layout_columnWeight="1"
             android:background="@color/symbol_button"
-            android:fontFamily="sans-serif-condensed"
+            android:fontFamily="@font/digital"
             android:text="X"
             android:textColor="@color/orange"
-            android:textSize="30sp"
+            android:textSize="@dimen/_30ssp"
             tools:ignore="TextContrastCheck" />
 
         <androidx.appcompat.widget.AppCompatButton
@@ -109,10 +122,10 @@
             android:layout_column="3"
             android:layout_columnWeight="1"
             android:background="@color/symbol_button"
-            android:fontFamily="sans-serif-condensed"
+            android:fontFamily="@font/digital"
             android:text="-"
             android:textColor="@color/orange"
-            android:textSize="30sp"
+            android:textSize="@dimen/_30ssp"
             tools:ignore="TextContrastCheck" />
 
         <androidx.appcompat.widget.AppCompatButton
@@ -123,10 +136,10 @@
             android:layout_column="2"
             android:layout_columnWeight="1"
             android:background="@color/nr_button"
-            android:fontFamily="sans-serif-condensed-light"
+            android:fontFamily="@font/digital"
             android:text="9"
             android:textColor="@color/white"
-            android:textSize="30sp"
+            android:textSize="@dimen/_30ssp"
             tools:ignore="TextContrastCheck" />
 
         <androidx.appcompat.widget.AppCompatButton
@@ -137,10 +150,10 @@
             android:layout_column="1"
             android:layout_columnWeight="1"
             android:background="@color/nr_button"
-            android:fontFamily="sans-serif-condensed-light"
+            android:fontFamily="@font/digital"
             android:text="8"
             android:textColor="@color/white"
-            android:textSize="30sp"
+            android:textSize="@dimen/_30ssp"
             tools:ignore="TextContrastCheck" />
 
         <androidx.appcompat.widget.AppCompatButton
@@ -151,10 +164,10 @@
             android:layout_column="0"
             android:layout_columnWeight="1"
             android:background="@color/nr_button"
-            android:fontFamily="sans-serif-condensed-light"
+            android:fontFamily="@font/digital"
             android:text="7"
             android:textColor="@color/white"
-            android:textSize="30sp"
+            android:textSize="@dimen/_30ssp"
             tools:ignore="TextContrastCheck" />
 
         <androidx.appcompat.widget.AppCompatButton
@@ -165,10 +178,10 @@
             android:layout_column="3"
             android:layout_columnWeight="1"
             android:background="@color/symbol_button"
-            android:fontFamily="sans-serif-condensed"
+            android:fontFamily="@font/digital"
             android:text="+"
             android:textColor="@color/orange"
-            android:textSize="30sp"
+            android:textSize="@dimen/_30ssp"
             tools:ignore="TextContrastCheck" />
 
         <androidx.appcompat.widget.AppCompatButton
@@ -179,10 +192,10 @@
             android:layout_column="2"
             android:layout_columnWeight="1"
             android:background="@color/nr_button"
-            android:fontFamily="sans-serif-condensed-light"
+            android:fontFamily="@font/digital"
             android:text="6"
             android:textColor="@color/white"
-            android:textSize="30sp"
+            android:textSize="@dimen/_30ssp"
             tools:ignore="TextContrastCheck" />
 
         <androidx.appcompat.widget.AppCompatButton
@@ -193,10 +206,10 @@
             android:layout_column="1"
             android:layout_columnWeight="1"
             android:background="@color/nr_button"
-            android:fontFamily="sans-serif-condensed-light"
+            android:fontFamily="@font/digital"
             android:text="5"
             android:textColor="@color/white"
-            android:textSize="30sp"
+            android:textSize="@dimen/_30ssp"
             tools:ignore="TextContrastCheck" />
 
         <androidx.appcompat.widget.AppCompatButton
@@ -207,10 +220,10 @@
             android:layout_column="0"
             android:layout_columnWeight="1"
             android:background="@color/nr_button"
-            android:fontFamily="sans-serif-condensed-light"
+            android:fontFamily="@font/digital"
             android:text="4"
             android:textColor="@color/white"
-            android:textSize="30sp"
+            android:textSize="@dimen/_30ssp"
             tools:ignore="TextContrastCheck" />
 
         <androidx.appcompat.widget.AppCompatButton
@@ -223,10 +236,10 @@
             android:layout_column="3"
             android:layout_columnWeight="1"
             android:background="@color/orange"
-            android:fontFamily="sans-serif-condensed"
+            android:fontFamily="@font/digital"
             android:text="="
             android:textColor="@color/white"
-            android:textSize="30sp"
+            android:textSize="@dimen/_30ssp"
             tools:ignore="TextContrastCheck" />
 
         <androidx.appcompat.widget.AppCompatButton
@@ -237,10 +250,10 @@
             android:layout_column="2"
             android:layout_columnWeight="1"
             android:background="@color/nr_button"
-            android:fontFamily="sans-serif-condensed-light"
+            android:fontFamily="@font/digital"
             android:text="3"
             android:textColor="@color/white"
-            android:textSize="30sp"
+            android:textSize="@dimen/_30ssp"
             tools:ignore="TextContrastCheck" />
 
         <androidx.appcompat.widget.AppCompatButton
@@ -251,10 +264,10 @@
             android:layout_column="1"
             android:layout_columnWeight="1"
             android:background="@color/nr_button"
-            android:fontFamily="sans-serif-condensed-light"
+            android:fontFamily="@font/digital"
             android:text="2"
             android:textColor="@color/white"
-            android:textSize="30sp"
+            android:textSize="@dimen/_30ssp"
             tools:ignore="TextContrastCheck" />
 
         <androidx.appcompat.widget.AppCompatButton
@@ -265,10 +278,10 @@
             android:layout_column="0"
             android:layout_columnWeight="1"
             android:background="@color/nr_button"
-            android:fontFamily="sans-serif-condensed-light"
+            android:fontFamily="@font/digital"
             android:text="1"
             android:textColor="@color/white"
-            android:textSize="30sp"
+            android:textSize="@dimen/_30ssp"
             tools:ignore="TextContrastCheck" />
 
         <androidx.appcompat.widget.AppCompatButton
@@ -280,10 +293,10 @@
             android:layout_columnSpan="2"
             android:layout_columnWeight="1"
             android:background="@color/nr_button"
-            android:fontFamily="sans-serif-condensed-light"
+            android:fontFamily="@font/digital"
             android:text="0"
             android:textColor="@color/white"
-            android:textSize="30sp"
+            android:textSize="@dimen/_31ssp"
             tools:ignore="TextContrastCheck" />
 
         <androidx.appcompat.widget.AppCompatButton
@@ -296,7 +309,7 @@
             android:background="@color/nr_button"
             android:text="."
             android:textColor="@color/white"
-            android:textSize="30sp"
+            android:textSize="@dimen/_26ssp"
             tools:ignore="TextContrastCheck" />
 
 
